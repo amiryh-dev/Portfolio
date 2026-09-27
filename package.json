@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.6.0",
+    "lucide-react": "^0.468.0"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
