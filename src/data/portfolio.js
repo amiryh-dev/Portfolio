@@ -8,7 +8,7 @@ export const profile = {
   email: "amiryh.dev@gmail.com",
   phone: "+1 647-879-1229",
   youtube: "https://www.youtube.com/@SpikeTaka",
-  linkedin: "https://www.linkedin.com/in/amyounesi/",
+  linkedin: "https://www.linkedin.com/in/amyouh/",
   resume: "/documents/Amirhossein-Younesi-Heravi-Resume.pdf",
 };
 export const navigation = [
