@@ -20,7 +20,7 @@ export function Logo({ compact = false }) {
       </span>
       {!compact && (
         <span className="brand-label">
-          AMIR YOUNESI<span>DEVELOPER PORTFOLIO</span>
+          AMIR YOUNESI
         </span>
       )}
     </Link>
@@ -123,9 +123,9 @@ export default function Layout() {
         <div className="identity">
           <span className="eyebrow">ENGINEERING WITH INTENTION</span>
           <Link to="/" className="identity-name">
-            Amirhossein
+            Amir
             <br />
-            Younesi Heravi<span>.</span>
+            Younesi<span>.</span>
           </Link>
           <p className="identity-role">{profile.role}</p>
           <p className="identity-description">

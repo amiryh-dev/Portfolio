@@ -1,7 +1,7 @@
 // Portfolio facts are sourced from Amir's June 2026 resume, with his current
 // Centennial program added. Approximate results retain their original qualifiers.
 export const profile = {
-  name: "Amirhossein Younesi Heravi",
+  name: "Amir Younesi",
   shortName: "Amir Younesi",
   role: "Senior Frontend Developer",
   location: "Richmond Hill, Ontario",
@@ -9,7 +9,7 @@ export const profile = {
   phone: "+1 647-879-1229",
   youtube: "https://www.youtube.com/@SpikeTaka",
   linkedin: "https://www.linkedin.com/in/amyouh/",
-  resume: "/documents/Amirhossein-Younesi-Heravi-Resume.pdf",
+  resume: "/documents/Amir-Younesi-Resume.pdf",
 };
 export const navigation = [
   { path: "/", label: "Home", number: "01" },

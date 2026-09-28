@@ -21,13 +21,13 @@ export default function About() {
           </>
         }
       >
-        I’m Amirhossein Younesi Heravi. You can call me Amir.
+        I’m Amir Younesi. You can call me Amir.
       </PageIntro>
       <div className="about-profile">
         <figure className="portrait-frame">
           <img
             src="/images/amir.png"
-            alt="Amirhossein Younesi Heravi"
+            alt="Amir Younesi"
             width="360"
             height="430"
           />
