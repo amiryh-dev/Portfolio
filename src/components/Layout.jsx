@@ -165,7 +165,7 @@ export default function Layout() {
             <a
               href={profile.resume}
               download
-              aria-label="Download Amir's résumé PDF"
+              aria-label="Download Amir's resume PDF"
             >
               <Download size={21} />
             </a>

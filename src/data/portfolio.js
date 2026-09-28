@@ -1,4 +1,4 @@
-// Portfolio facts are sourced from Amir's June 2026 résumé, with his current
+// Portfolio facts are sourced from Amir's June 2026 resume, with his current
 // Centennial program added. Approximate results retain their original qualifiers.
 export const profile = {
   name: "Amirhossein Younesi Heravi",
