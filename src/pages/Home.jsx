@@ -53,7 +53,7 @@ export default function Home() {
           <span>Thoughtfully built.</span>
         </h1>
         <p className="home-lead">
-          I’m a frontend developer who cares about how things{" "}
+          I’m a full-stack developer who cares about how things{" "}
           <strong>work</strong> — and how they <strong>feel</strong>.
         </p>
         <p className="home-description">

@@ -3,7 +3,7 @@
 export const profile = {
   name: "Amir Younesi",
   shortName: "Amir Younesi",
-  role: "Senior Frontend Developer",
+  role: "Full-Stack Developer",
   location: "Richmond Hill, Ontario",
   email: "amiryh.dev@gmail.com",
   phone: "+1 647-879-1229",

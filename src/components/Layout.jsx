@@ -82,7 +82,7 @@ export default function Layout() {
       (location.pathname.startsWith("/projects/")
         ? "Project details"
         : "Page not found");
-    document.title = `${title} · Amir Younesi — Senior Frontend Developer`;
+    document.title = `${title} · Amir Younesi — Full-Stack Developer`;
     if (!initialRoute.current)
       document.getElementById("main-content")?.focus({ preventScroll: true });
     initialRoute.current = false;
