@@ -3,12 +3,44 @@ import { ArrowRight, ArrowUpRight, Check, Mail, X } from "lucide-react";
 import { projects, profile } from "../data/portfolio";
 import { ContactCta, SectionHeading, Tag } from "../components/Layout";
 
-
+function ContactConfirmation({ draft }) {
+  const navigate = useNavigate();
+  const body = `Name: ${draft.firstName} ${draft.lastName}\nEmail: ${draft.email}\nPhone: ${draft.phone || "Not provided"}\n\n${draft.message}`;
+  const mailto = `mailto:${profile.email}?subject=${encodeURIComponent("Portfolio enquiry from " + draft.firstName)}&body=${encodeURIComponent(body)}`;
+  return (
+    <section className="confirmation" aria-label="Prepared message">
+      <div className="flex items-start gap-3">
+        <Check className="mt-1 shrink-0" size={18} />
+        <div>
+          <h2>Your message is ready, {draft.firstName}.</h2>
+          <p>
+            Open your email app to review and send it to Amir. Nothing has been
+            sent yet.
+          </p>
+        </div>
+        <button
+          className="icon-button ml-auto shrink-0"
+          aria-label="Dismiss message preview"
+          onClick={() => navigate("/", { replace: true, state: null })}
+        >
+          <X size={18} />
+        </button>
+      </div>
+      <blockquote>{draft.message}</blockquote>
+      <a href={mailto} className="text-link">
+        Open email draft
+        <Mail size={16} />
+      </a>
+    </section>
+  );
+}
 export default function Home() {
   const { state } = useLocation();
   return (
     <>
-     
+       {state?.contactDraft && (
+        <ContactConfirmation draft={state.contactDraft} />
+      )}
       <section className="home-intro">
         <div className="eyebrow">
           <span>01</span>

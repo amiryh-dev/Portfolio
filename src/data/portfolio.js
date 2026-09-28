@@ -5,10 +5,9 @@ export const profile = {
   shortName: "Amir Younesi",
   role: "Senior Frontend Developer",
   location: "Richmond Hill, Ontario",
-  email: "amyounesi@icloud.com",
+  email: "amiryh.dev@gmail.com",
   phone: "+1 647-879-1229",
   linkedin: "https://www.linkedin.com/in/amyounesi/",
-  youtube: "https://www.youtube.com/channel/UCpvVyZDCuwLxZhCxNhqGNgg",
   resume: "/documents/Amirhossein-Younesi-Heravi-Resume.pdf",
 };
 export const navigation = [
